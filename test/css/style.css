@@ -1,0 +1,64 @@
+#header h1 {
+  color:#fff;
+  text-shadow: 0px 0px 5px #000;
+}
+#header {
+  margin-bottom: 30px;
+  background:#D35400;
+}
+
+#header textarea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  background: #D35400;
+  color: #fff;
+  border: solid 2px #fff;
+  padding: 10px;
+}
+
+#header textarea:focus {
+  background: #fff;
+  color: #D35400;
+}
+#addPost{
+  padding: 50px;
+}
+#addNewPost {
+  background: #D35400;
+  color: #fff;
+  border: solid 2px #fff;
+  font-weight: bold;
+  float: right;
+}
+#addNewPost:hover {
+  background: #fff;
+  color: #D35400;
+}
+.follow {
+  background: #fff;
+  color: #D35400;
+  border: solid 2px #D35400;
+  font-weight: bold;
+}
+.follow:hover {
+  background: #D35400;
+  color: #fff;
+}
+.post{
+  background: #fff;
+  margin: 20px auto;
+  width: 90%;
+  box-shadow: 0px 0px 5px #000;
+  padding: 15px;
+}
+.post h5 {
+  color: #D35400;
+}
+p.date {
+  float: right;
+  font-size: 0.8em;
+  color: #aaa;
+  font-style: italic;
+}
