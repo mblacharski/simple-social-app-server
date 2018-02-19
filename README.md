@@ -12,10 +12,15 @@ How to use the server:
   
 How to test:
   edit js/scripts.js file and set {values} in line:
+  
     var socket = new WebSocket("ws://{HOSTNAME}:{PORT}/wall/" + name);
+    
   open index.html file in browser
+  
   add to url:
-      ?username=your name,
+  
+      ?username=your name
+      
       for example: directory/index.html?username=test
   
  
