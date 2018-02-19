@@ -77,7 +77,6 @@ public class WallEndpoint {
         users.values().forEach(us -> {
             if(us.getUsername().equals(msg.getUser())){
                 processSubscription(subscribed, us, add);
-                System.out.println(add);
             }
         });
         broadcastPosts();
