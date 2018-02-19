@@ -137,10 +137,3 @@ Own posts (only users' posts):
     }]
   }
 ```
-
-
-
-License
--------
-
-The project is licensed under the BSD license.
