@@ -35,14 +35,15 @@ go into target directory and:
 
 
 API
+========
+
+
+Connect to API
 ------------
 ```
 ws://{hostname}:{port}/wall/{username}
 ```
 
-
-Connect
-------------
 
 List of events (pair: "name - code"):
 ```
